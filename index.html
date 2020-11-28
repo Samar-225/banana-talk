@@ -1,36 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Talk</title>
-    
+
 
     <style>
-        textarea{
-           width:80%;
-           height:10vh; 
-           display: block;
+        textarea {
+            width: 80%;
+            height: 20vh;
+            display: block;
             margin: 1rem;
+            border-radius: 1rem;
+            color: #000;
             padding: 1rem;
-
+            background: radial-gradient(circle, rgba(255, 237, 245, 1) 0%, rgba(148, 187, 233, 1) 100%);
         }
 
         button {
-            background-color:blanchedalmond
-            
-        
+            background-color: blanchedalmond
         }
 
+        #output{
+            border:1px solid black;
+            margin:1rem;
+            height: 20vh;
+            width: 80%;
+            border-radius: 1rem;
+            padding: 1rem;
+            background: radial-gradient(circle, rgba(255, 237, 245, 1) 0%, rgba(148, 187, 233, 1) 100%);
+        }
+        .placeholder {
+            
+        }
     </style>
 </head>
+
 <body>
     <h1>talk bananaaa</h1>
-    <textarea  id="txt-input" placeholder="..put your sentence in english here"></textarea>
-    <button id="btn-translate" >Translate</button>
+    <textarea id="txt-input" placeholder="..put your sentence in english here"></textarea>
+    <button id="btn-translate">Translate</button>
 
-    <div style="font-size:larger;"></div>
+
+
+    <div>Output Will Come here 👇</div>
+    <div id="output"></div>
     <script src="app.js" type="text/javascript"></script>
 
 </body>
+
 </html>
