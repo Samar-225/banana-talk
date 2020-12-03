@@ -16,6 +16,8 @@ var serverURLDothraki="https://api.funtranslations.com/translate/dothraki.json"
 
 var serverURLValyrian="https://api.funtranslations.com/translate/"
 
+var serverURLValyrian="https://api.funtranslations.com/translate/hodor.json"
+
 
 
 function getTranslationURL(text) {

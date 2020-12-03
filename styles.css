@@ -62,13 +62,7 @@ hr {
     list-style: none;
 }
 
-.list-item-inline {
-    text-decoration: none;
-    display: inline;
-    padding: 0.3rem 0.5rem;
-    margin: 0rem 0.5rem;
 
-}
 
 .navigation {
     background-color: white;
@@ -96,36 +90,6 @@ hr {
 
 .navigation .link-active {
     font-weight: bolder;
-}
-
-/* header */
-
-.hero {
-    padding: 0.5rem;
-
-}
-
-.hero .hero-img {
-    max-width: 550px;
-    display: block;
-    margin: auto
-}
-
-.hero .hero-img1 {
-    max-width: 350px;
-    display: block;
-    margin: auto
-}
-
-.hero .hero-heading {
-    padding-top: 1rem;
-    font-size: 3rem;
-    color: var(--dark-grey);
-    text-align: center;
-}
-
-.hero .hero-heading .heading-inverted {
-    color: var(--primary-color);
 }
 
 
@@ -196,12 +160,7 @@ a:hover{
 }
 
 
-img{
-    padding: 2rem;
-    max-width: 80%;
-    
-    
-}
+
 
 textarea {
     width: 80%;
@@ -229,11 +188,24 @@ button {
 }
 
 
-.list-inline {
-    list-style: none;
-    padding: 0;
+
+
+.card{
+    max-width: 250px;
+    display: inline-block;
+    margin-top: 0rem;
+    border-radius: 1rem;
+    margin-left: 20vh;
+    
 }
 
 .li1{
-    display: inline;
+    display: inline-block;
+    
+
+}
+
+img{
+    margin-top: 0px;
+    
 }
