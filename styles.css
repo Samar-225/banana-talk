@@ -1,4 +1,9 @@
-@import url('http://fonts.cdnfonts.com/css/trebuchet-ms-2');
+/* @import url('http://fonts.cdnfonts.com/css/trebuchet-ms-2'); */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
 
 :root {
     --primary-color:#38332F;
@@ -6,14 +11,18 @@
     --off-white:#38332F;
 }
 
+    
+
 body {
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: 'IBM Plex Serif', serif;
     margin: 0;
 }
 
-hr {
-    margin: 3rem 0rem;
+.div1{
+    font-family: 'Bellefair', serif;
 }
+
+
 
 /** container **/
 .container {
@@ -28,12 +37,18 @@ hr {
     margin: auto;
 }
 
+.list-item-inline{
+    display: inline;
+    padding:3rem;
+}
+
 /* link */
 
 .link {
     text-decoration: none;
-    padding: 0.5rem 0.5rem;
+    padding: 0.3rem 0.3rem;
     margin:0.5rem o.5rem;
+    color:black;
     
 }
 
@@ -65,7 +80,7 @@ hr {
 
 
 .navigation {
-    background-color: white;
+    background-color:;
     color: white;
     padding: 0.3rem;
     border-bottom-left-radius: 0.6rem;
@@ -93,30 +108,17 @@ hr {
 }
 
 
-/* section */
-.section{
-    padding: 2rem ;
-}
-.section h1 {
-    text-align: center;
-
-}
-
-.ow{
-    background-color: var(--off-white);
-    padding: 2rem;
-    margin: 2rem 0rem;
-}
 
 
 /* footers */
 .footer{
-    background-color: #38332F;
-    padding: 2rem;
+    background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+    padding: 2rem 2rem 2rem 2rem;
     text-align: center;
     border-top-left-radius: 11px ;
     border-top-right-radius: 11px ;
-    margin:4rem 0rem 0rem 0rem
+    margin:4rem 0rem 0rem 0rem;
 }
 .footer .link{
     color:white;
@@ -146,7 +148,7 @@ hr {
     font-size: 101%;
   } */
 
-a:hover{
+.footer a:hover{
       
       font-size: 99%;
       opacity: 0.8; 
@@ -207,5 +209,7 @@ button {
 
 img{
     margin-top: 0px;
+    /* -webkit-filter: drop-shadow(5px 5px 5px #494949);
+    filter: drop-shadow(5px 5px 5px #9b9b9b);     */
     
 }

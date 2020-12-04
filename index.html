@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,13 +8,89 @@
     <title>GOT Speak</title>
     <link href="styles.css" rel="stylesheet" ;>
 
+    <style>
+
+body {
+  /* background-image: url("images/got_bag.jpg"); */
+  background-image: url("images/gotbag2.jpg");
+  /* background-image: url("images/gotbag3.jpg"); */
+
+}
+        .div1{
+            text-align: center;
+            font-size:500%;
+            color:black;
+            background-color: rgba(256, 256, 256, 0.3) ;
+            text-shadow:2px 2px rgb(165, 255, 235);
+            
+
+            /* font-family: 'Game of Thrones', Arial, sans-serif; */
+        }
+
+
+         .container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    filter: drop-shadow(6px 6px 6px #000000)
+    
+    /*
+      align-items:flex-start;
+      align-items:flex-end;
+      align-items:center;
+      
+      flex-direction:column;
+      */
+  }.container-1 div {
+  border: 1px white solid;
+  padding: 0.4rem 0.8rem 0.6rem 0.3rem;
+  margin: 3rem;
+  border-radius: 0.5rem;
+  background-color:rgb(255, 255, 255);
+  
+  
+
+
+
+  
+}
+
+.box-1 {
+  flex: 1;
+  order: 2;
+  
+}
+
+.box-2 {
+  flex: 1;
+  order: 1;
+}
+
+.box-3 {
+  flex: 1;
+  order: 3;
+}
+
+p{
+    padding:0rem 0rem 0rem 0.5rem;
+}
+
+h2{
+    text-align:center;
+}
+
+
+    </style>
+
 </head>
 
 <body>
 
 
-    <nav class="navigation container">
-        <img src="images/got.png" />
+    <nav class="navigation container-1">
+        <img src="images/got.png" alt="Avatar" style="width:100%" />
+        
         <!-- <div class="nav-brand">HeyThere! IamSamar..</div>
         <ul class=".navigation. nav-pills">
             <li class="list-item-inline">
@@ -27,8 +104,41 @@
             </li>
         </ul> -->
     </nav>
+    <div class="div1">LANGUAGE  TRANSLATIONS</div>
 
-<ul class="list-non-bullet">
+    
+    <div class="container-1">
+
+        <a class="link " href="/Valyrian.html" >
+        <div class="box-1">
+            
+          
+          <img src="images/val2.png" alt="Avatar" style="width:100%">
+          <h2>Valyrian Translate</h2>
+          <p>Convert from <strong>English to Valyrian</strong>.The Valyrian languages are a fictional language family in the A Song of Ice and Fire series of fantasy novels by George Martin,and in their television adaptation <strong>Game of Thrones</strong>.</p>
+          <a class="link link-primary" href="/Valyrian.html">Let's Start</a>
+          
+        </div>
+    </a>
+    <a class="link " href="/Hodor.html">
+        <div class="box-2">
+            <img src="images/ho1.jpg" alt="Avatar" style="width:100%">
+          <h2>Hodor Translate</h2>
+          <p>Convert from <strong>English to Hodor</strong>.Hodor, originally named Wylis,is fictional character in Novel written by George Martin .Hodor was a servant of House Stark at Winterfell. He speaks nothing but hodor..</p>
+          <a class="link link-primary" href="/Hodor.html">Let's Start</a>
+        </div>
+    </a>
+    <a class="link " href="/Dothraki.html">
+        <div class="box-3">
+            <img src="images/do1.jpg" alt="Avatar" style="width:100%">
+          <h2>Dothraki Translate</h2>
+          <p>Convert from <strong>English to Dothraki</strong>. The Dothraki language is a constructed fictional language in George R. R. Martin's fantasy novel series A Song of Ice and Fire and its television adaptation <strong>Game of Thrones</strong>.</p>
+          <a class="link link-primary" href="/Dothraki.html">Let's Start</a>
+        </div></a>
+      </div>
+    
+
+<!-- <ul class="list-non-bullet">
     <li class="li1">
     
     <div class="card">
@@ -68,7 +178,7 @@
     </ul>
 
 
-
+ -->
 
 
 
@@ -108,8 +218,9 @@
 
 
     <footer class="footer container">
-        <div class="footer-header">Contact to Developer</div><ul>
-        <li><ul class="social-links list-non-bullet ul">
+        <div class="footer-header">Contact to Developer</div>
+        
+        <ul class="social-links list-non-bullet ul">
             <li class="list-item-inline ul"><a class="link"
                     href="https://www.linkedin.com/in/samarsinh-salunkhe-318319197/">LinkedIn</a></li>
             <li class="list-item-inline ul">
@@ -119,12 +230,15 @@
         </li>
 
 
-        <ul class="social-links list-non-bullet ul">
-    <li class="link"><a class="link"
-    href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrgCgRDJGLKLTpTVHDVBRsBhMhCkxbbTGjmPktPTzjRJZHbgJVvfcCSkHphpRlshxGwBKL">Email:samarsinh225@gmail.com</a></li><li class="link"><a class="link"
-        >Contact: +91 75076 81225</a></li>
+        
+    <li class="link list-item-inline"><a class="link"
+    href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrgCgRDJGLKLTpTVHDVBRsBhMhCkxbbTGjmPktPTzjRJZHbgJVvfcCSkHphpRlshxGwBKL">samarsinh225@gmail.com</a></li>
+    
+    <li class="link list-item-inline"><a class="link"
+        > +91 75076 81225</a></li>
 
-</ul></ul>
+</ul>
 </body>
 
 </html>
+
